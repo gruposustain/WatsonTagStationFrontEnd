@@ -1,0 +1,21 @@
+{
+  "name": "tagstationfronteng",
+  "authors": [
+    "grupoestudosustain <sara-silveira2009@hotmail.com>"
+  ],
+  "description": "Programa de verificação de classificação de imagens",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.3",
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -1,0 +1,17 @@
+<html ng-app="TagStation">
+    <head>
+        <title>:: Home TagStation ::</title>
+        <script type="text/JavaScript" src="bower_components/angular/angular.js"></script>
+        <script type="text/JavaScript" src="js/app.js"></script>
+        <script type="text/JavaScript" src="js/controllers/consultaWatsonCtrl.js"></script>
+    </head>
+    <body ng-controller="consultaWatsonCtrl">
+    <!--<body>-->
+            <h1>Consultar Watson</h1><br />
+            <a href="views/consulta.html">Consulta</a><br />
+            <a href="views/treinamento.html">Treinamento</a><br />
+            <p><input type="text" ng-model="nome" /></p>
+            <p>{{nome}}</p>
+            <p>{{respostaAPI}}</p>
+    </body>
+</html>
